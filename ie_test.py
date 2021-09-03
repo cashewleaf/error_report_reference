@@ -17,7 +17,6 @@ from selenium.webdriver.ie.options import Options as IE_Options
 from webdriver_manager.microsoft import IEDriverManager
 
 def kill_process(kill_targets ):
-    # 指定プロセス名のプロセスを強制終了。プロセス名はリスト形式
     while True:
         for proc in psutil.process_iter():
             #break
